@@ -13,7 +13,7 @@ h1 {
 	margin-bottom: 15px;
 }
 
-.div {
+div:nth-child(2) {
 	text-align: center;
 	font-style: italic;
 }
@@ -33,9 +33,11 @@ p {
 	line-height: 1.5em;
 }
 
+p:last-child{ margin-bottom: 150px; }
+
 .balance { 
 	padding-top: 0px;
-	margin-left: 40px; 
+	margin-left: 5px; 
 }
 
 .middle { 
@@ -53,11 +55,13 @@ p {
 	font-size: smaller;
 }
 
-ol, ul { padding-left: 40px; }
+.article_margin { margin-bottom: 150px;}
+
+ol, ul {margin-left: 10px;}
 
 figure {
 	float: right;
-	margin-left: 20px;		
+	padding-left: 20px;	
 }
 
 a {
@@ -71,7 +75,7 @@ a:hover { color: #F5C264 ; }
 	margin: 0 auto;
 	width: 95%;
 	max-width: 960px;
-	text-align: justify;
+	text-align: left;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 }
