@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lab 12 - HTML Forms, Part 1</title>
+</head>
+
+<body>
+	
+	<h1>HTML Forms, Part 1</h1>
+	
+		<form action="#" method="post">
+			<br>
+			<label for="name">Enter your full name:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<br>
+			<label for="email">Enter your email:</label>
+			<input type="email" id="email" name="email">
+			<br>
+			<br>
+			<label for="number">Would you like to recieve local updates & news? If yes, please enter your phone number:</label>
+			<input type="text" id="number" name="email">
+			<br>
+			<br>
+
+			<fieldset>
+			<legend style="float: top"> Visiting South Ayshire</legend>
+			<h2>Where are you from?</h2>
+			<input type="checkbox" id="local" name="local">
+			<label for="local">I'm a local</label>
+			<br>
+			<input type="checkbox" id="london" name="london">
+			<label for="london">London city resident</label>
+			<br>
+			<input type="checkbox" id="any" name="any">
+			<label for="any"> Somewhere else</label>
+			<br>
+			<br>
+			<h2>When will you visit S. Ayshire?</h2>
+			<input type="radio" id="resident" name="resident">
+			<label for="resident">N/A I'm a resident</label>
+			<br>
+			<input type="radio" id="winter" name="winter">
+			<label for="winter">December-January(Winter)</label>
+			<br>
+			<input type="radio" id="spring" name="spring">
+			<label for="spring">February-May(Spring)</label>
+			<br>
+			<input type="radio" id="summer" name="summer">
+			<label for="summer">May-September(Summer)</label>
+			<br>
+			<input type="radio" id="autumn" name="autumn">
+			<label for="autumn">September-November(Autumn)</label>
+			<br>
+			<br>
+			</fieldset>
+			<br>
+			<br>
+
+			<label for="comments">Tell us about any questions you may have about our lovely city:</label>
+			<br>
+			<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+			<br>
+			<br>
+			<input type="submit" id="submit" name="submit" value="Cheers, mate!">
+			<br>
+			<br>
+			<br>
+		</form>
+
+</body>
+</html>

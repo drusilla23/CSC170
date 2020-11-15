@@ -1,0 +1,32 @@
+.menu ul {
+	list-style-type: none;
+	margin-top: 35px;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.menu a {
+	display: block;
+	padding:5px 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #800020;
+	background-color: #99CCFF;
+}
+
+.menu a:hover {
+	color: #F5C264;
+	background-color: grey;
+}
+
+.menu a.is-current {
+	color: #800020;
+	background-color: #d3d3d3;
+}
+
+
+
+
+
