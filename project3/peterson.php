@@ -146,7 +146,7 @@
         </section>
 
 
-        <footer class="box-layout">
+        <section class="box-layout">
 
             <h3>Citations </h3>
 
@@ -155,7 +155,7 @@
                 <li><a target="_blank" href="https://en.wikipedia.org/wiki/Jordan_Peterson">Wikipedia: Biography</a></li>
             </ul>  
 
-        </footer>
+        </section>
 
     </div>
 

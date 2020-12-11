@@ -2,7 +2,9 @@
 
 <body>
 
+    <div>
     <?php include "inc/nav.php";?>
+    </div>
 
 <main>
 
@@ -19,7 +21,7 @@
             <h3>Who is Noam Chomsky?</h3>
 
             <figure>
-                <img style="float:left"class="moveimage" src="images/noamrally.jpg" alt="Chomsky speaking at Resistance Rally">
+                <img class="flexible" src="images/noamrally.jpg" alt="Chomsky speaking at Resistance Rally">
                 <figcaption>Chomsky speaking at Resistance Rally 1967</figcaption>
             </figure>
 
@@ -67,7 +69,7 @@
 
                 <figure>
                     <!-- width="200px" height="210px" -->
-                    <img src="images/noamdebate.jpg" alt="Noam Chomsky in 1976">
+                    <img class="flexible" src="images/noamdebate.jpg" alt="Noam Chomsky in 1976">
                     <figcaption>Noam Chomsky in 1976</figcaption>
                 </figure>
 
@@ -84,7 +86,7 @@
 
             <figure class="image-left">
             <!--  width="264" height="191" -->
-            <img src="images/noambooks.jpg" alt="Noam Chomsky in his Happy Place">
+            <img class="flexible" src="images/noambooks.jpg" alt="Noam Chomsky in his Happy Place">
             <figcaption>Noam Chomsky in his Happy Place</figcaption>
             </figure>
 
@@ -122,30 +124,24 @@
                 <tr>
                     <th>Publication</th>
                     <th>N</th>
-                    <th>Marginalization</th>  
                     <th>Critical</th>
                     <th>Neutral</th>
                     <th>Positive</th>
-                    <th>Consecration</th>
                 </tr>
 
                 <tr>
                     <td>Globe and Mail</td>
                     <td>267</td>
-                    <td>18</td>
                     <td>7</td>
                     <td>153</td>
                     <td>39</td>
-                    <td>50</td>
                 </tr>
 
                 <tr>
                     <td>National Post</td>
                     <td>199</td>
                     <td>42</td>
-                    <td>19</td>
                     <td>124</td>
-                    <td>7</td>
                     <td>7</td>
                 </tr>
 
@@ -153,90 +149,72 @@
                     <td>Toronto Star</td>
                     <td>216</td>
                     <td>8</td>
-                    <td>4</td>
                     <td>158</td>
                     <td>21</td>
-                    <td>25</td>
                 </tr>
 
                 <tr>
                     <td>New York Times</td>
                     <td>283</td>
                     <td>12</td>
-                    <td>16</td>
                     <td>219</td>
                     <td>19</td>
-                    <td>17</td>
                 </tr>
 
                 <tr>
                     <td>Wall Street Journal</td>
                     <td>61</td>
                     <td>21</td>
-                    <td>4</td>
                     <td>33</td>
                     <td>0</td>
-                    <td>3</td>
                 </tr>
 
                 <tr>
                     <td>Washington Post</td>
                     <td>147</td>
                     <td>9</td>
-                    <td>7</td>
                     <td>115</td>
                     <td>5</td>
-                    <td>11</td>
                 </tr>
 
                 <tr>
                     <td>Canada</td>
                     <td>682</td>
                     <td>68</td>
-                    <td>30</td>
                     <td>435</td>
                     <td>67</td>
-                    <td>82</td>
                 </tr>
 
                 <tr>
                     <td>USA</td>
                     <td>491</td>
                     <td>42</td>
-                    <td>27</td>
                     <td>367</td>
                     <td>24</td>
-                    <td>31</td>
                 </tr>
 
                 <tr>
                     <td>Liberal</td>
                     <td>913</td>
                     <td>47</td>
-                    <td>34</td>
                     <td>645</td>
                     <td>84</td>
-                    <td>103</td>
                 </tr>
 
                 <tr>
                     <td>Conservative</td>
                     <td>260</td>
                     <td>63</td>
-                    <td>23</td>
                     <td>157</td>
                     <td>7</td>
-                    <td>10</td>
                 </tr>
 
                 <tr>
                     <td>Totals</td>
                     <td>1173</td>
                     <td>110</td>
-                    <td>57</td>
                     <td>802</td>
                     <td>91</td>
-                    <td>113</td>
                 </tr>
 
             </table>
@@ -259,11 +237,17 @@
 
     </div>
 
-    <?php include "inc/html-footer.php"; ?>
+    <footer class="footer">
+        <p>This <a style="text-decoration: underline;" href="chomsky.php">webpage</a> designed by Drusilla Talawa.</p>
+        <div class="footer-div">CSC 170 Webpage Design and Development</div>
+    </footer>
 
- <!--    <?php include "inc/scripts.php";?>
+</body>
+</html>
 
-    <script src="sss/sss.js"></script>
+ <?php include "inc/scripts.php";?>
+
+    <!-- <script src="sss/sss.js"></script>
 
     <script>
     $('.slider').sss();
@@ -273,7 +257,4 @@
 
     <script>
     $( "#accordion" ).accordion();
-    </script>
- -->
-<!-- </body> -->
-
+    </script> -->

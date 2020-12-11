@@ -8,8 +8,8 @@
 	text-align: center;
 	color: #964B00;
 	font-size: 45px;
-	padding-top: 0;
-	padding-left: 20px;
+	/*padding-top: 0;
+	padding-left: 20px;*/
 	padding-bottom: 20px;
 	width: 100%;
 	position: absolute;
@@ -31,12 +31,13 @@
 	justify-content: center;
 	text-align: center;
 	margin-top: 20px;
+	padding: 0;
 	width: 100%;
 	position: absolute;
 	  left: 0;
 	  bottom: -1;
 	  right: 0;
-	  z-index: -1;
+	  z-index: 1;
 }
 
 /*main styles*/
@@ -60,6 +61,12 @@ body {
 	text-align: center;
 	font-style: italic;
 	/*margin-bottom: 28px;*/
+}
+
+.footer-div {
+	font-size: smaller; 
+	font-style: italic; 
+	padding-bottom: 15px;
 }
 
 .margin { 
@@ -94,8 +101,8 @@ h3 {
 
 }
 
-table { 
-		margin-bottom: 20px; }
+table { margin-bottom: 20px; }
+
 p {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -203,3 +210,62 @@ header, section.box-layout { grid-column: 1 / 3; }
 }
 
 a:hover{color: #800080;}
+
+@media (max-width: 700px) {
+	.container { 
+		display: block;
+		padding-left:0; } 
+} 
+
+@media (max-width: 600px) {
+     figure {
+          float: none;
+          margin-left: initial;
+     }
+} 
+
+/*/*portrait view*/
+/*@media (max-width: 300px) {
+	.lead2 { 
+		display: block;
+		width: 100%;
+		max-width: 300px;
+		margin-left: 0;
+		padding-left: 10px;
+	}
+*/
+
+/*landscape view*/
+@media (max-width: 700px) {
+	.lead2{ 
+		display: block;
+		margin-left: 30px;
+		width: 80%;
+	}
+
+/*@media (max-width: 600px) {
+	section.lead2 { 
+		display: block;
+		width: 100%;
+		max-width: 300px;
+		margin-left: 0;
+		padding-left: 10px;
+	}
+
+*/
+}
+
+@media (max-width: 600px) {
+	.h1div { 
+		padding-top: 30px; 
+		font-weight: bold;
+		color: #800020;
+	}
+
+}
+
+.flexible {
+    width: 100%;
+    max-width: 250px;
+    max-height: 200px;
+}
