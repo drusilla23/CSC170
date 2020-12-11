@@ -1,0 +1,143 @@
+/*banner styles*/
+
+
+/*main styles*/
+body {
+	background-color: #E2E8E8;
+	font-family: "Arial, Helvetica, sans-serif";
+	margin-bottom: 80px;
+
+}
+
+h1 {
+	color: #964B00;
+	font-size: 45px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 20px;
+	border-bottom: 4px solid #964B00;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+div:nth-child(2){
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 28px;
+}
+
+.margin { 
+	padding-top: 10px;
+	margin-left: 20px;
+}
+
+h2 {
+	margin-top: 30px;
+	margin-bottom: 0;
+	font-weight: normal;
+	color: #50C878;
+	opacity: 0.7;
+	padding-left: 5px;
+}
+
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 1.5em;
+}
+
+.paraspace { margin-right: 50px; }
+
+aside { 
+	text-align: justify;
+	margin-left: 25px;
+}
+
+figcaption {
+	text-align:center;
+	font-size: smaller;
+	margin-right: 5px;
+	padding-right: 5px;
+}
+
+table, tr, th, td {border: 1px solid grey;}
+
+ol, ul { margin-left: 10px; }
+
+figure { float: left; }
+
+.moveimage { padding-left: 22px;}
+
+h2:first-child{text-align: center;}
+
+a {
+	color: #000080;
+	text-decoration: underline;
+}
+
+.container {
+	margin: 0 auto;
+	width: 95%;
+	padding-left: 50px;
+	max-width: 960px;
+	text-align: left;
+	display:grid;
+	grid-template-columns: 40% 60%;
+}
+
+.box-chomsky {
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 0;
+}
+
+.leveling { padding-top: 10px;}
+
+/*header, footer { grid-column: 1 / 3; }*/
+
+.spacing { 
+	padding-left: 50px; 
+	padding-top: 0;
+}
+
+.image1 {
+	padding-left: 0;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.lead {
+	border: 2px; 
+	margin-bottom: 23px;
+	margin-right: 10px;
+	margin-top: 40px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.box-layout {
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 0;
+}
+
+.box-layout li {
+	flex-basis: 100px;
+	flex-shrink: 3;
+	list-style-type: none;
+	background-color: #b5b5b5;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+a:hover{color: #800080;}
