@@ -3,9 +3,11 @@
 <head>
     <meta charset="utf-8">
     <title>Drusilla Talawa, CSC 170 Project 3</title>
-    <header>
+    <header class="banner">
+        <a href="index.php">
         <h1>Brain Bubble</h1>
-        <div>Meet the world's greatest minds</div>
+        </a>
+        <div class="h1div">Meet the world's greatest minds</div>
     </header>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/navigation.css">

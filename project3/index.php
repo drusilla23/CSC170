@@ -1,16 +1,18 @@
 <?php include "inc/html-top.php"; ?>
 
 <body>
+
     <?php include "inc/nav.php";?>
 
-  	<main>
+<main>
 
     <div class="container">
 
         <header>
             <h2>Noam Chomsky Biography</h2>
-            <div>The father of modern linguistics</div>
+            <div class="h2div">The father of modern linguistics</div>
         </header>
+
 
         <article class="lead">
 
@@ -23,9 +25,9 @@
 
             <p>Noam Chomsky was an intellectual prodigy who went on to earn a PhD in linguistics at the University of Pennsylvania. Since 1955, he has been a professor at MIT and has produced ground breaking, controversial theories on human linguistic capacity. Chomsky is widely published, both on topics in his field and on issues of dissent and U.S. foreign policy.</p>
             
-            <p class=paraspace> “Some of my earliest memories, which are very vivid, are of people selling rags at our door, of violent police strikebreaking, and other Depression scenes. Whatever the reasons may be, I was very much affected by events of the 1930s, the Spanish Civil War, for example, though I was barely literate.” –Noam Chomsky</p>
+            <p> “Some of my earliest memories, which are very vivid, are of people selling rags at our door, of violent police strikebreaking, and other Depression scenes. Whatever the reasons may be, I was very much affected by events of the 1930s, the Spanish Civil War, for example, though I was barely literate.” –Noam Chomsky</p>
 
-
+            <div>
 
             <h3> Some Interesting Facts</h3>
 
@@ -37,9 +39,16 @@
                  <li>Chomsky has starred in around 160 films, documentaries and TV series like "Best of Enemies" and "The US vs. John Lennon."</li>
             </ul>
 
+            </div>
+
+            <h3> Current Affairs </h3>
+
+            <p>Despite his often-controversial viewpoints, Chomsky remains a highly respected and sought-after thinker who continues to author new books and contributes to a wide variety of journals and remains active on the lecture circuit. Over the course of his career, Chomsky has also amassed a wealth of academic and humanitarian awards, including the <strong>Distinguished Scientific Contribution Award</strong> from the American Psychological Association, the <strong>Kyoto Prize in Basic Sciences</strong> and the <strong>humanitarian Sydney Peace Prize</strong>. In 2014, at age 85, Chomsky remarried, to Valeria Wasserman.</p>
+
+
         </article>
 
-        <article>
+        <aside class="lead">
 
             <h3>Early Life and Education</h3>
 
@@ -57,7 +66,8 @@
                 <h3>The Scholar</h3>
 
                 <figure>
-                    <img width="200px" height="210px" src="images/noamdebate.jpg" alt="Noam Chomsky in 1976">
+                    <!-- width="200px" height="210px" -->
+                    <img src="images/noamdebate.jpg" alt="Noam Chomsky in 1976">
                     <figcaption>Noam Chomsky in 1976</figcaption>
                 </figure>
 
@@ -66,22 +76,13 @@
 
                 <p>In 1949, Chomsky married educational specialist Carol Schatz, a woman he had known since childhood. The relationship lasted for 59 years until she died from cancer in 2008. They had three children together. For a short time, between Chomsky’s master's and doctoral studies, the couple lived on a kibbutz in Israel. When they returned, Chomsky continued at the University of Pennsylvania and executed some of his research and writing at Harvard University. His dissertation eventually explored several ideas that he would soon lay out in one of his best-known books on linguistics, Syntactic Structures (1957).
                 </p>
+        </aside>
 
-        </article>
-
-    </div> <!--container-->
-
-    <div class="box-chomsky">
-
-        <article>
-
-            <h3> Current Affairs </h3>
-
-            <p>Despite his often-controversial viewpoints, Chomsky remains a highly respected and sought-after thinker who continues to author new books and contributes to a wide variety of journals and remains active on the lecture circuit. Over the course of his career, Chomsky has also amassed a wealth of academic and humanitarian awards, including the <strong>Distinguished Scientific Contribution Award</strong> from the American Psychological Association, the <strong>Kyoto Prize in Basic Sciences</strong> and the <strong>humanitarian Sydney Peace Prize</strong>. In 2014, at age 85, Chomsky remarried, to Valeria Wasserman.</p>
+        <article class="lead">
 
             <h3>Linguistic Revolutions</h3>
 
-            <figure>
+            <figure class="image-left">
             <!--  width="264" height="191" -->
             <img src="images/noambooks.jpg" alt="Noam Chomsky in his Happy Place">
             <figcaption>Noam Chomsky in his Happy Place</figcaption>
@@ -95,138 +96,7 @@
 
         </article>
 
-    </div> <!--box-chomsky-->
-
-	<article>
-
-        <h4>Table 1. Portrayal of Noam Chomsky across newspapers, countries, and political orientations [2]</h4>
-
-        <table>
-            <tr>
-                <th>Publication</th>
-                <th>N</th>
-                <th>Marginalization</th>  
-                <th>Critical</th>
-                <th>Neutral</th>
-                <th>Positive</th>
-                <th>Consecration</th>
-            </tr>
-
-            <tr>
-                <td>Globe and Mail</td>
-                <td>267</td>
-                <td>18</td>
-                <td>7</td>
-                <td>153</td>
-                <td>39</td>
-                <td>50</td>
-            </tr>
-
-            <tr>
-                <td>National Post</td>
-                <td>199</td>
-                <td>42</td>
-                <td>19</td>
-                <td>124</td>
-                <td>7</td>
-                <td>7</td>
-            </tr>
-
-            <tr>
-                <td>Toronto Star</td>
-                <td>216</td>
-                <td>8</td>
-                <td>4</td>
-                <td>158</td>
-                <td>21</td>
-                <td>25</td>
-            </tr>
-
-            <tr>
-                <td>New York Times</td>
-                <td>283</td>
-                <td>12</td>
-                <td>16</td>
-                <td>219</td>
-                <td>19</td>
-                <td>17</td>
-            </tr>
-
-            <tr>
-                <td>Wall Street Journal</td>
-                <td>61</td>
-                <td>21</td>
-                <td>4</td>
-                <td>33</td>
-                <td>0</td>
-                <td>3</td>
-            </tr>
-
-            <tr>
-                <td>Washington Post</td>
-                <td>147</td>
-                <td>9</td>
-                <td>7</td>
-                <td>115</td>
-                <td>5</td>
-                <td>11</td>
-            </tr>
-
-            <tr>
-                <td>Canada</td>
-                <td>682</td>
-                <td>68</td>
-                <td>30</td>
-                <td>435</td>
-                <td>67</td>
-                <td>82</td>
-            </tr>
-
-            <tr>
-                <td>USA</td>
-                <td>491</td>
-                <td>42</td>
-                <td>27</td>
-                <td>367</td>
-                <td>24</td>
-                <td>31</td>
-            </tr>
-
-            <tr>
-                <td>Liberal</td>
-                <td>913</td>
-                <td>47</td>
-                <td>34</td>
-                <td>645</td>
-                <td>84</td>
-                <td>103</td>
-            </tr>
-
-            <tr>
-                <td>Conservative</td>
-                <td>260</td>
-                <td>63</td>
-                <td>23</td>
-                <td>157</td>
-                <td>7</td>
-                <td>10</td>
-            </tr>
-
-            <tr>
-                <td>Totals</td>
-                <td>1173</td>
-                <td>110</td>
-                <td>57</td>
-                <td>802</td>
-                <td>91</td>
-                <td>113</td>
-            </tr>
-
-        </table>
-
-    </article>
-
-    <section>
+        <article class="lead">
 
             <h3>Politics and Controversies</h3>
 
@@ -242,27 +112,154 @@
 
             <p>Among his many books addressing politics are American Power and the New Mandarins (1969), Peace in the Middle East? (1974), Manufacturing Consent: The Political Economy of the Mass Media (with Edward S. Herman, 1988), Profit over People (1998), Rogue States (2000), Hegemony or Survival (2003), Gaza in Crisis (with Ilan Pappé, 2010), and most recently, On Western Terrorism: From Hiroshima to Drone Warfare (2013).</p>
 
-    </section>
+        </article>
 
-        <footer class="box-layout">
+        <section class="lead2">
 
-            <h3>References</h3>
+            <h3>Table 1. Portrayal of Noam Chomsky across newspapers, countries, and political orientations [2]</h3>
+
+            <table>
+                <tr>
+                    <th>Publication</th>
+                    <th>N</th>
+                    <th>Marginalization</th>  
+                    <th>Critical</th>
+                    <th>Neutral</th>
+                    <th>Positive</th>
+                    <th>Consecration</th>
+                </tr>
+
+                <tr>
+                    <td>Globe and Mail</td>
+                    <td>267</td>
+                    <td>18</td>
+                    <td>7</td>
+                    <td>153</td>
+                    <td>39</td>
+                    <td>50</td>
+                </tr>
+
+                <tr>
+                    <td>National Post</td>
+                    <td>199</td>
+                    <td>42</td>
+                    <td>19</td>
+                    <td>124</td>
+                    <td>7</td>
+                    <td>7</td>
+                </tr>
+
+                <tr>
+                    <td>Toronto Star</td>
+                    <td>216</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>158</td>
+                    <td>21</td>
+                    <td>25</td>
+                </tr>
+
+                <tr>
+                    <td>New York Times</td>
+                    <td>283</td>
+                    <td>12</td>
+                    <td>16</td>
+                    <td>219</td>
+                    <td>19</td>
+                    <td>17</td>
+                </tr>
+
+                <tr>
+                    <td>Wall Street Journal</td>
+                    <td>61</td>
+                    <td>21</td>
+                    <td>4</td>
+                    <td>33</td>
+                    <td>0</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>Washington Post</td>
+                    <td>147</td>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>115</td>
+                    <td>5</td>
+                    <td>11</td>
+                </tr>
+
+                <tr>
+                    <td>Canada</td>
+                    <td>682</td>
+                    <td>68</td>
+                    <td>30</td>
+                    <td>435</td>
+                    <td>67</td>
+                    <td>82</td>
+                </tr>
+
+                <tr>
+                    <td>USA</td>
+                    <td>491</td>
+                    <td>42</td>
+                    <td>27</td>
+                    <td>367</td>
+                    <td>24</td>
+                    <td>31</td>
+                </tr>
+
+                <tr>
+                    <td>Liberal</td>
+                    <td>913</td>
+                    <td>47</td>
+                    <td>34</td>
+                    <td>645</td>
+                    <td>84</td>
+                    <td>103</td>
+                </tr>
+
+                <tr>
+                    <td>Conservative</td>
+                    <td>260</td>
+                    <td>63</td>
+                    <td>23</td>
+                    <td>157</td>
+                    <td>7</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>Totals</td>
+                    <td>1173</td>
+                    <td>110</td>
+                    <td>57</td>
+                    <td>802</td>
+                    <td>91</td>
+                    <td>113</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+
+        <section class="box-layout">
+
+            <h3 style="margin-top: 30px; margin-bottom: 0;">References</h3>
 
             <ul>
-                <li>  The New Indian Express.(2018).<a target="_blank" href="https://www.newindianexpress.com/lifestyle/books/2018/dec/07/noam-chomsky-birthday-10-fun-facts-about-the-father-of-modern-linguistics-1908565.html">Noam Chomsky’s birthday: 10 fun facts about ‘America’s Socrates'.</a> </li>
-                <li>   Lannigan & McLaughlin.(2017).<a target="_blank" href="https://link.springer.com/article/10.1007/s11186-017-9293-3?shared-article-renderer">Professors and politics: Noam Chomsky’s contested reputation in the United States and Canada.</a></li>
-                <li>   Biography.(2019).<a target="_blank" href="https://www.biography.com/scholar/noam-chomsky">Noam Chomsky Biography.</a></li>
-                <li>   Simon, Peter.(1967).<a target="_blank" href="https://www.digitalcommonwealth.org/search/commonwealth-oai:gm80p4765">Resistance rally: Noam Chomsky speaking at rally on Boston Common.</a></li>
+                <li>  The New Indian Express.(2018).<a class="a-underline" target="_blank" href="https://www.newindianexpress.com/lifestyle/books/2018/dec/07/noam-chomsky-birthday-10-fun-facts-about-the-father-of-modern-linguistics-1908565.html">Noam Chomsky’s birthday: 10 fun facts about ‘America’s Socrates'.</a> </li>
+                <li>   Lannigan & McLaughlin.(2017).<a class="a-underline" target="_blank" href="https://link.springer.com/article/10.1007/s11186-017-9293-3?shared-article-renderer">Professors and politics: Noam Chomsky’s contested reputation in the United States and Canada.</a></li>
+                <li>   Biography.(2019).<a class="a-underline" target="_blank" href="https://www.biography.com/scholar/noam-chomsky">Noam Chomsky Biography.</a></li>
+                <li>   Simon, Peter.(1967).<a class="a-underline" target="_blank" href="https://www.digitalcommonwealth.org/search/commonwealth-oai:gm80p4765">Resistance rally: Noam Chomsky speaking at rally on Boston Common.</a></li>
             </ul>
 
-            <p>All content on this webpage is sourced from the cites listed in the references. This webpage created by Drusilla Talawa.</p>
+        </section>
 
-        </footer>
+    </div>
 
-</main>
-
-</body>
-</html>
+    <?php include "inc/html-footer.php"; ?>
 
  <!--    <?php include "inc/scripts.php";?>
 
@@ -279,3 +276,4 @@
     </script>
  -->
 <!-- </body> -->
+

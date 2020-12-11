@@ -2,9 +2,9 @@
 
 <body>
 
-    <div class="container">
+    <?php include "inc/nav.php";?>
 
-        <?php include "inc/nav.php";?>
+    <div class="container">
         
         <header>
             <h2>Jordan Peterson</h2>
